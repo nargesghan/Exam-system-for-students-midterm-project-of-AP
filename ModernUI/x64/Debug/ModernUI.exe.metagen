@@ -1,0 +1,86 @@
+  ModernUI.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly ModernUI, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class student: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(student): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    finde(String, String): PrivateScope, Public, HideBySig
+    Repetitious(student): PrivateScope, Public, HideBySig
+    getfirstname(): PrivateScope, Public, HideBySig
+    getlastname(): PrivateScope, Public, HideBySig
+Class teacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(teacher): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    finde(String, String): PrivateScope, Public, HideBySig
+    Repetitious(teacher): PrivateScope, Public, HideBySig
+Class Question: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, Boolean, Int32, System.String, System.String[], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String question : Public
+    Boolean answertof : Public
+    Int32 answergozine : Public
+    System.String answer : Public
+    System.String[] option : Public
+    Int32 model : Public
+  Methods:
+    returnquestion(): PrivateScope, Public, HideBySig
+    setsorat(String): PrivateScope, Public, HideBySig
+    setanswer(String): PrivateScope, Public, HideBySig
+    setanswer(Int32): PrivateScope, Public, HideBySig
+    setanswer(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    setgozineha(String, String, String, String): PrivateScope, Public, HideBySig
+    setmodel(): PrivateScope, Public, HideBySig
+    getsorat(): PrivateScope, Public, HideBySig
+    getjavabsahihghalat(): PrivateScope, Public, HideBySig
+    getjavabtesti(): PrivateScope, Public, HideBySig
+    getjavabtashrihi(): PrivateScope, Public, HideBySig
+    getgozineaval(): PrivateScope, Public, HideBySig
+    getgozinedovvom(): PrivateScope, Public, HideBySig
+    getgozinesevvom(): PrivateScope, Public, HideBySig
+    getgozinechaharom(): PrivateScope, Public, HideBySig
+    getmodel(): PrivateScope, Public, HideBySig
+Class exam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String name : Public
+    System.String bodjebandi : Public
+    Int64 timetostart : Public
+    Int64 timetoend : Public
+    student[] students : Public
+    Int32 teacherr : Public
+    Int32 numberofques : Public
+    Int64 zaman : Public
+    Question[] all : Public
+  Methods:
+    setquestiontashrihi(Int32, String, Int32, String): PrivateScope, Public, HideBySig
+    setquestiontesti(Int32, String, Int32, String, String, String, String, Int32): PrivateScope, Public, HideBySig
+    setquestiontrueorfalse(Int32, String, Int32, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    settimeend(Int32): PrivateScope, Public, HideBySig
+    settimetostart(Int32): PrivateScope, Public, HideBySig
+    getnumberofques(): PrivateScope, Public, HideBySig
+    setzaman(): PrivateScope, Public, HideBySig
+    setstudent(Int32, student): PrivateScope, Public, HideBySig
+    getteacher(): PrivateScope, Public, HideBySig
+    getname(): PrivateScope, Public, HideBySig
+    getstudent(Int32): PrivateScope, Public, HideBySig
+Class MyfirstProject.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

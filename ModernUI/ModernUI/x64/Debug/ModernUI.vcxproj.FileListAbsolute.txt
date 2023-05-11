@@ -1,0 +1,3 @@
+C:\Users\THA\source\repos\ModernUI\ModernUI\x64\Debug\ModernUI.vcxprojAssemblyReference.cache
+C:\Users\THA\source\repos\ModernUI\ModernUI\x64\Debug\ModernUI.MyForm.resources
+C:\Users\THA\source\repos\ModernUI\ModernUI\x64\Debug\ModernUI.vcxproj.GenerateResource.cache

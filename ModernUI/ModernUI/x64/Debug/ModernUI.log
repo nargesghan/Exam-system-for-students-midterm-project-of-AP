@@ -1,0 +1,10 @@
+﻿  MyForm.cpp
+C:\Users\THA\source\repos\ModernUI\ModernUI\MyForm.h(3133,1): warning C4305: '=': truncation from 'int' to 'bool'
+C:\Users\THA\source\repos\ModernUI\ModernUI\MyForm.h(3135,1): warning C4305: '=': truncation from 'int' to 'bool'
+C:\Users\THA\source\repos\ModernUI\ModernUI\MyForm.h(3137,1): warning C4305: '=': truncation from 'int' to 'bool'
+  exam.cpp
+  student.cpp
+  teacher.cpp
+  Generating Code...
+  exam.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ModernUI.vcxproj -> C:\Users\THA\source\repos\ModernUI\x64\Debug\ModernUI.exe
